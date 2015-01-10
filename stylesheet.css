@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding-top: 50px;
+  background: url(images/papar_texture.jpg);
+}
+
+h1, h2, h3 {
+  font-family: 'Marcellus SC', serif; 
+  padding: 0;
+  margin: 0;
+}
+
+
+h3 { 
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+p, li {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.navbar {
+  width: 100%;
+  background: url(images/papar_texture.jpg);
+  box-shadow: 0 -5px 15px 5px #10246C;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+}
+.navbar ul{
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar li a{
+  text-align: center;
+  display: inline;
+  font-family: 'Marcellus SC', serif;
+  font-size: 20px;
+  color: black !important;
+  top: 15px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar .navbar-collapse .navbar-nav li{
+  height: 40px;
+}
+
+.navbar-toggle {
+  background-color: #FFFFFF;
+}
+
+/*.navbar-collapse .navbar-nav :hover{
+  background-color:#C4C4C4;
+}*/
+
+.jumbotron {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/jumbotron.jpg);
+  text-align: center;
+  border-bottom: 1px solid gray;
+  text-shadow: 0px 0px 5px #FFFFFF;
+  z-index: -1;
+}
+
+
+.jumbotron h1 {
+  font-family: 'Marcellus SC', serif;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.jumbotron h2 {
+  font-family: 'Marcellus SC', serif;
+  font-size: 26px;
+  color: #10246C;
+}
+
+.jumbotron p {
+  font-family: 'Raleway', sans-serif;
+  font-style: none;
+  font-size: 20px;
+  color: #3F3F3F;
+  line-height: 1.5;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+/* line .... all these styles is just for the the lines next to my name*/
+.line {
+  overflow: hidden;
+  text-align: center;
+}
+.line span {
+  position: relative;  
+}
+.line span:before, .line span:after {
+  $linesHeight: 70px;
+  content: "";
+  position: absolute;
+  border-bottom: 1px inset #5A5A5A;
+  width: 600px;
+  height: $linesHeight;
+  top: 50%;
+  margin-top: floor(-$linesHeight / 2);
+}
+.line span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.line span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.sub-heading {
+/*  width: 220px;
+  padding-right: 20px;*/
+  text-align: right;
+  display: inline-block;
+}
+
+.bullet {
+  font-size: 26px;
+  color: #1469EB;
+  padding: 0px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.small-bullet {
+  font-size: 26px;
+  color: #1469EB;
+  padding: 0px;
+  padding-left: 10px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.icons {
+  position: relative;
+  margin: 0 auto;
+}
+
+.icon-img {
+  width: 35px;
+  padding: 0px 4px 0px 4px;
+}
+
+.icons a img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.icons a img:active {
+  transform: scale(0.9, 0.9);
+  transition: all 0s linear;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  position: relative;
+/*  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;*/
+}
+
+.column-divider {
+  border-left: 1px solid #7F7F7F;
+  vertical-align: top;
+  min-height: 135px;
+}
+
+.logo {
+  max-width: 220px;
+  max-height: 70px;
+}
