@@ -171,14 +171,26 @@ p, li {
   transition: all 0s linear;
 }
 
-.container {
+.some-thing {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbo_container {
   margin: 0 auto;
   margin-top: 70px;
   margin-bottom: 30px;
-  position: relative;
-/*  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-delay: 1s;
-  -webkit-animation-iteration-count: 1;*/
+  -webkit-animation-iteration-count: 1;
+}
+
+.container {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  position: relative;
+
 }
 
 .column-divider {
