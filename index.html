@@ -49,6 +49,7 @@
       </div><!-- /.container -->
     </nav>
 
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/tech2.jpg">
     <section class="intro">
       <div class="intro-body">
         <div class="container">
@@ -69,6 +70,7 @@
         </div>
       </div>
     </section>
+    </div><!-- .parallax container -->
 
     <section id="aboutme" class="content-section text-center">
       <div class="container">
@@ -84,28 +86,34 @@
         </div>
       </div>
     </section>
-
+    
     <section id="projects" class="content-section text-center">
       <div class="container">
         <div class="row">
           <h2>Projects</h2>
           <div class="col-md-12">
             <div class="col-md-4">
-              <img src="http://placeimg.com/350/212/tech">
+              <a href="https://github.com/jzntam/Snap_Receipts" target="_blank">
+                <img src="images/snap.png" class="img-responsive">
+              </a>
               <h4>Snap Receipts</h4>
               <p>
-                A web app created for receipt tracking and digitizing your receipts. The app reads text data from an uploaded image using the Tesseract OCR Library. Website was designed with cross platform capability in mind, following responsive design patterns. User interface created with AJAX and jQuery. File uploads handled with CarrierWave. While receipt location is geocoded and tracked with Google Maps
+                A web app for receipt tracking and digitizing your receipts. The app reads text data from an uploaded image using the Tesseract OCR Library. Website was designed with cross platform capability in mind, following responsive design patterns. User interface created with AJAX and jQuery. Receipt location is geocoded and tracked with Google Maps
               </p>
             </div>
             <div class="col-md-4">
-              <img src="http://placeimg.com/350/212/tech">
+              <a href="https://juicebox.herokuapp.com" target="_blank">
+                <img src="images/juice.png" class="img-responsive">
+              </a>
               <h4>JuiceBox Ideaz</h4>
               <p>
                 Neutra American Apparel banjo Pitchfork distillery. Raw denim whatever Wes Anderson, church-key gentrify chillwave put a bird on it mixtape American Apparel shabby chic Etsy photo booth 3 wolf moon leggings Pitchfork.
               </p>
             </div>
             <div class="col-md-4">
-              <img src="http://placeimg.com/350/212/tech">
+              <a href="https://codecore-alumni.herokuapp.com" target="_blank">
+                <img src="images/alumni.png" class="img-responsive">
+              </a>
               <h4>CodeCore Alumni</h4>
               <p>
                 Neutra American Apparel banjo Pitchfork distillery. Raw denim whatever Wes Anderson, church-key gentrify chillwave put a bird on it mixtape American Apparel shabby chic Etsy photo booth 3 wolf moon leggings Pitchfork.
@@ -114,21 +122,27 @@
           </div>
           <div class="col-md-12">
             <div class="col-md-4">
-              <img src="http://placeimg.com/350/212/tech">
+              <a href="https://jason-pm-tool.herokuapp.com" target="_blank">
+                <img src="images/pmtool.png" class="img-responsive">
+              </a>
               <h4>PM Tool</h4>
               <p>
                 The Project Management Tool is a web application that helps users collaborate on projects online as well as delegate tasks. Landing page features parallax scrolling. User authentication integrated with Devise. Page layout and styling done with Bootstrap and custom css. User interface for creating tasks, discussions and comments are added using AJAX.
               </p>
             </div>
             <div class="col-md-4">
-              <img src="http://placeimg.com/350/212/tech">
+              <a href="https://codecoreq.herokuapp.com" target="_blank">
+                <img src="images/codecoreq.png" class="img-responsive">
+              </a>
               <h4>codecoreQ</h4>
               <p>
                 Neutra American Apparel banjo Pitchfork distillery. Raw denim whatever Wes Anderson, church-key gentrify chillwave put a bird on it mixtape American Apparel shabby chic Etsy photo booth 3 wolf moon leggings Pitchfork.
               </p>
             </div>
             <div class="col-md-4">
-              <img src="http://placeimg.com/350/212/tech">
+              <a href="https://launch-igniter.herokuapp.com" target="_blank">
+                <img src="images/launchy.png" class="img-responsive">
+              </a>
               <h4>Launch Igniter</h4>
               <p>
                 A crowd funding Rails web app. Created using TDD with Rspec tests. User authentication was built from scratch using bcrpyt. API integration for <a href="#">Fundsy Client</a> with AJAX requests. Payment/Donation functionality using Stripe. Geocoding support for Google Maps.
@@ -230,6 +244,7 @@
     </footer>
     <script type="text/javascript" src="javascript/jquery.min.js"></script>
     <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/parallax.min.js"></script>
     <script type="text/javascript" src="javascript/main.js"></script>
   </body>
 </html>
