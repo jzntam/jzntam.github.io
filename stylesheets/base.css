@@ -52,13 +52,18 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
-  color: #176e61;
+  /*color: #176e61;*/
+  color: #738AA3;
 }
 
 a span.my-brand {
   font-size: 24px;
   margin-top: 300px;
   text-shadow: 0px 0px 5px black;
+}
+
+.navbar-nav li a {
+  text-shadow: 0px 0px 5px black;  
 }
 
 .navbar {
@@ -116,7 +121,6 @@ a.navbar-brand {
   padding-bottom: 0px;
 }
 
-
 @media(min-width:767px) {
   .navbar {
     padding: 20px 0;
@@ -135,6 +139,7 @@ a.navbar-brand {
 
   .top-nav-collapse li a, .top-nav-collapse .navbar-brand{
     color: #FF7700;
+    text-shadow: none;
   }
 
   .top-nav-collapse span.my-brand{
@@ -194,28 +199,6 @@ a.navbar-brand {
   }
 }
 
-.btn-circle {
-  width: 70px;
-  height: 70px;
-  margin-top: 15px;
-  padding: 7px 16px;
-  border: 2px solid #fff;
-  border-radius: 35px;
-  font-size: 40px;
-  color: #fff;
-  background: 0 0;
-  -webkit-transition: background .3s ease-in-out;
-  -moz-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out;
-}
-
-.btn-circle:hover,
-.btn-circle:focus {
-  outline: 0;
-  color: #fff;
-  background: rgba(255,255,255,.1);
-}
-
 .page-scroll .btn-circle i.animated,
 .page-scroll .btn-about i.animated {
   -webkit-transition-property: -webkit-transform;
@@ -271,7 +254,27 @@ a.navbar-brand {
 }
 
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.aboutme {
+  text-align: justify;
+}
+
+#projects, #experience, #contact {
+  background-color: #2C3E50;
+}
+
+#projects h2, #projects h4, #experience h2, #contact h2 {
+  color: #FF7700;
+}
+
+#projects p, #experience p, #contact p {
+  color: #FF7700;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 16px;
 }
 
 @media(min-width:767px) {
@@ -306,6 +309,7 @@ a.navbar-brand {
 .btn-about {
   border: 1px solid #FF7700;
   border-radius: 0px;
+  font-family: 'Audiowide', cursive;
   color: #FF7700;
   background-color: #2C3E50;
   font-size: 18px;
