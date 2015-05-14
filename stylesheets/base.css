@@ -149,7 +149,7 @@ a.navbar-brand {
   }
 
   .navbar-custom.top-nav-collapse {
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.5);
   }
 }
 
@@ -176,7 +176,7 @@ a.navbar-brand {
 
 .intro-text {
   font-size: 18px;
-  text-shadow: 2px 2px 1px black;
+  text-shadow: 2px 2px 5px black;
   /* background-color: rgba(43,61,79,0.2);*/
 }
 
@@ -199,7 +199,9 @@ a.navbar-brand {
   }
 
   .intro-text {
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
   }
 }
 
@@ -279,6 +281,31 @@ a.navbar-brand {
   font-weight: 300;
   text-align: justify;
   font-size: 16px;
+}
+
+.icon-img {
+  width: 35px;
+  padding: 0px 4px 0px 4px;
+}
+
+.skills {
+  text-align: left;
+  margin-bottom: 10px;
+  height: 37px;
+}
+
+.pro-icon {
+  color: #FF7700;
+  padding-right: 7px;
+  padding-left: 5px;
+}
+
+.pro-skills li {
+  font-size: 20px;
+  text-align: left;
+  list-style-type: none;
+  padding-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 
 /*.img-responsive:hover{
