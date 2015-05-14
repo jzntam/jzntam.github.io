@@ -322,27 +322,30 @@ border-left: 1px solid rgba(43,61,79,0.4);
   margin-bottom: 0px;
 }
 
+.logo-container {
+  height: 70px
+}
+
 .work-container {
   max-width: 720px;
   margin: 0 auto;
 }
-.job {
+.work {
   color: black;
   background-color: rgba(255,255,255,0.85);
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-.work {
   display: inline-block;
   vertical-align: center;
   /*padding-left: 50px;*/
-  text-align: left;
+  /*text-align: left;*/
   font-weight: 300;
   margin-top: 20px;
+  padding: 10px;
+  height: 187px;
 }
 
 .work p {
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 0px;
 }
 
 .school {
