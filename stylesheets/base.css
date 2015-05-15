@@ -280,7 +280,8 @@ a.navbar-brand {
   color: #FF7700;
   font-weight: 300;
   text-align: justify;
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 45px;
 }
 
 #experience {
@@ -302,7 +303,7 @@ a.navbar-brand {
 .pro-icon {
   color: #FF7700;
   padding-right: 7px;
-  padding-left: 5px;
+  padding-left: 47px;
 }
 
 .pro-skills li {
@@ -314,7 +315,11 @@ a.navbar-brand {
 }
 
 .pro-skills{
-border-left: 1px solid rgba(43,61,79,0.4);
+  border-left: 1px solid rgba(43,61,79,0.4);
+}
+
+.coding-skills, .pro-skills {
+  border-top: 1px solid rgba(43,61,79,0.4);
 }
 
 .date {
