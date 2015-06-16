@@ -134,6 +134,15 @@ a.navbar-brand {
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
 
+/* Media Query to navbar more responsive */
+@media(max-width:996px) {
+  .navbar-custom .nav li a {
+    font-size: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
   .top-nav-collapse {
     padding: 0;
     background-color: #2C3E50;
@@ -372,6 +381,10 @@ a.navbar-brand {
 
 .school img {
   margin-top: 5px;
+}
+
+.project-image {
+  width: 100%
 }
 
 /*.img-responsive:hover{
