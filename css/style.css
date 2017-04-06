@@ -229,3 +229,7 @@ footer.page-footer {
   max-height: 500px;
   max-width: 900px;
 }
+
+#why {
+  font-size: 22px;
+}
