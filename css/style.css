@@ -225,6 +225,7 @@ footer.page-footer {
   filter:         drop-shadow(10px 10px 10px black);
 }
 
-.card.education {
-
+.snap_image {
+  max-height: 500px;
+  max-width: 900px;
 }
