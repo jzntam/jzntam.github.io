@@ -354,7 +354,7 @@
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Details<i class="material-icons right">close</i></span>
-                <p>A web app for receipt tracking and digitizing your receipts. The app reads text data from an uploaded image using the Tesseract OCR Library. User interface created with AJAX and jQuery. Receipt location is geocoded and tracked with Google Maps.</p>
+                <p>A web app for receipt tracking and digitizing your receipts. The app reads text data from an uploaded image using the Tesseract OCR Library. User interface created with AJAX and jQuery. Receipt location is geocoded and tracked with Google Maps. This was my first Rails solo project.</p>
               </div>
             </div>
           </div>
@@ -496,13 +496,42 @@
       <div class="container">
         <h5 class="center">CONTACT ME</h5>
         <hr>
-        <div class="center">
-          <a href="mailto:jzntam@gmail.com?subject=Contacting from github.io">
+        <div class="col m8 offset-m2">
+          <div class="center">
             <img src="images/jason.png">
-            <div style="font-size:19px">
-              Email Me
+          </div>
+          <form action="https://formspree.io/cameljeet@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Contact from jzntam.github.io" />
+
+            <div class="row">
+              <div class="input-field col m6 offset-m3">
+                <input id="name" type="text" name="name" class="validate" required>
+                <label for="name">Name</label>
+              </div>
             </div>
-          </a>
+            <div class="row">
+              <div class="input-field col m6 offset-m3">
+                <input id="email" type="email" name="_replyto" class="validate" required>
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col m6 offset-m3">
+                <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                <label for="message">Message</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col m6 offset-m3">
+                <input type="hidden" name="_next" value="//jzntam.github.io" />
+                <button class="btn waves-effect waves-light my_brand" type="submit" name="action">
+                  Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -574,7 +603,7 @@
           </div>
         </div>
       </div> -->
-      <div class="footer-copyright">
+      <div class="footer-copyright my_brand">
         <div class="container center">
           <p>
             Copyright &copy;
